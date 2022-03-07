@@ -6,6 +6,13 @@
 
 using namespace std;
 
+struct segment
+{
+    char symb;  // symbol
+    double left;    // left interval
+    double right;   // right interval
+};
+
 void calculateAlphabet(const string& text, string& alphabet); // calculate text alphabet
 
 void calculateProbability(const string& text, const string& alphabet, vector<double>& probabilities);	// calculate the probabillity of symbol occurrence in the text
