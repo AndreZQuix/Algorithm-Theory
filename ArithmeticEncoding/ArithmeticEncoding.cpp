@@ -1,13 +1,6 @@
 ﻿#include <iostream>
 #include "ArithemticEncoding.h"
 
-struct segment
-{
-    char symb;  // symbol
-    double left;    // left interval
-    double right;   // right interval
-};
-
 vector<segment> defineSegments(const string& str, const vector<double> probabilities)
 {
     double l = 0;
