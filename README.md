@@ -5,5 +5,3 @@ Implementations of some well known algorithms and data structures.
 2. Huffman Coding (with Decoding).
 3. Annealing Algorithm (Travelling salesman problem).
 4. Genetic Algorithm (Travelling salesman problem).
-  
-Will be updated.
